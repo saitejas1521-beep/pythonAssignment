@@ -1,0 +1,68 @@
+2026-04-13 10:49:58,628 - INFO - Starting initial run...
+2026-04-13 10:49:58,629 - INFO - Scanning for new CSV files...
+2026-04-13 10:49:58,629 - INFO - Processing file: sample.csv
+2026-04-13 10:49:58,749 - INFO - [SIMULATED EMAIL] To: test1@example.com | Subject: Your Zip Code 90210 matches California (CA) | Body: Hello,
+        
+        You provided the zip code 90210. According to our records, this corresponds to California (CA).
+        
+        Thank you!
+2026-04-13 10:49:59,060 - INFO - [SIMULATED EMAIL] To: test2@example.com | Subject: Your Zip Code 10001 matches New York (NY) | Body: Hello,
+        
+        You provided the zip code 10001. According to our records, this corresponds to New York (NY).
+        
+        Thank you!
+2026-04-13 10:49:59,374 - INFO - [SIMULATED EMAIL] To: test3@example.com | Subject: Your Zip Code 33139 matches Florida (FL) | Body: Hello,
+        
+        You provided the zip code 33139. According to our records, this corresponds to Florida (FL).
+        
+        Thank you!
+2026-04-13 10:49:59,709 - INFO - [SIMULATED EMAIL] To: test4@example.com | Subject: Your Zip Code 99999 matches Invalid Zip Code | Body: Hello,
+        
+        You provided the zip code 99999. According to our records, this corresponds to Invalid Zip Code.
+        
+        Thank you!
+2026-04-13 10:49:59,735 - INFO - Successfully created output file: output\processed_20260413_104959_sample.csv
+2026-04-13 10:49:59,737 - INFO - Moved sample.csv to archive.
+2026-04-13 10:49:59,737 - INFO - Scheduling job to run every 2 minutes.
+2026-04-13 10:51:59,786 - INFO - Scanning for new CSV files...
+2026-04-13 10:51:59,787 - INFO - No new CSV files found.
+2026-04-13 10:57:23,767 - INFO - Starting initial run...
+2026-04-13 10:57:23,767 - INFO - Scanning for new CSV files...
+2026-04-13 10:57:23,767 - INFO - Processing file: sample.csv
+2026-04-13 10:57:25,879 - ERROR - Failed to send email to test1@example.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82f0c20aed6sm9833013b3a.0 - gsmtp')
+2026-04-13 10:57:27,796 - ERROR - Failed to send email to test2@example.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82f0c4e3d41sm12319430b3a.48 - gsmtp')
+2026-04-13 10:57:29,985 - ERROR - Failed to send email to test3@example.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c79219cb9eesm9124841a12.21 - gsmtp')
+2026-04-13 10:57:32,163 - ERROR - Failed to send email to test4@example.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82f0c50a70csm9367176b3a.55 - gsmtp')
+2026-04-13 10:57:32,169 - INFO - Successfully created output file: output\processed_20260413_105732_sample.csv
+2026-04-13 10:57:32,171 - INFO - Moved sample.csv to archive.
+2026-04-13 10:57:32,171 - INFO - Scheduling job to run every 2 minutes.
+2026-04-13 11:04:01,253 - INFO - Starting initial run...
+2026-04-13 11:04:01,253 - INFO - Scanning for new CSV files...
+2026-04-13 11:04:01,254 - INFO - Processing file: sample.csv
+2026-04-13 11:04:04,549 - INFO - Email sent successfully to test1@example.com
+2026-04-13 11:04:07,646 - INFO - Email sent successfully to test2@example.com
+2026-04-13 11:04:11,071 - INFO - Email sent successfully to test3@example.com
+2026-04-13 11:04:14,570 - INFO - Email sent successfully to test4@example.com
+2026-04-13 11:04:14,575 - INFO - Successfully created output file: output\processed_20260413_110414_sample.csv
+2026-04-13 11:04:14,577 - INFO - Moved sample.csv to archive.
+2026-04-13 11:04:14,577 - INFO - Scheduling job to run every 2 minutes.
+2026-04-13 11:06:49,567 - INFO - Starting initial run...
+2026-04-13 11:06:49,567 - INFO - Scanning for new CSV files...
+2026-04-13 11:06:49,568 - INFO - Processing file: sample.csv
+2026-04-13 11:06:52,893 - INFO - Email sent successfully to pythonwork41@gmail.com
+2026-04-13 11:06:56,251 - INFO - Email sent successfully to pythonwork41@gmail.com
+2026-04-13 11:06:59,686 - INFO - Email sent successfully to test3@example.com
+2026-04-13 11:07:03,075 - INFO - Email sent successfully to test4@example.com
+2026-04-13 11:07:03,080 - INFO - Successfully created output file: output\processed_20260413_110703_sample.csv
+2026-04-13 11:07:03,082 - INFO - Moved sample.csv to archive.
+2026-04-13 11:07:03,082 - INFO - Scheduling job to run every 2 minutes.
+2026-04-13 11:08:25,043 - INFO - Starting initial run...
+2026-04-13 11:08:25,044 - INFO - Scanning for new CSV files...
+2026-04-13 11:08:25,044 - INFO - Processing file: sample.csv
+2026-04-13 11:08:28,661 - INFO - Email sent successfully to saitejasari15@gmail.com
+2026-04-13 11:08:32,327 - INFO - Email sent successfully to saitejasari15@gmail.com
+2026-04-13 11:08:35,687 - INFO - Email sent successfully to saitejasari15@gmail.com
+2026-04-13 11:08:39,150 - INFO - Email sent successfully to saitejasari15@gmail.com
+2026-04-13 11:08:39,165 - INFO - Successfully created output file: output\processed_20260413_110839_sample.csv
+2026-04-13 11:08:39,168 - INFO - Moved sample.csv to archive.
+2026-04-13 11:08:39,168 - INFO - Scheduling job to run every 2 minutes.

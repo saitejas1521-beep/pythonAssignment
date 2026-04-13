@@ -1,0 +1,19 @@
+paths:
+  input_folder: "input"
+  output_folder: "output"
+  archive_folder: "archive"
+
+scheduler:
+  interval_minutes: 2
+
+api:
+  base_url: "http://api.zippopotam.us/us/{}"
+  timeout_seconds: 5
+
+email:
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  smtp_user: "saitejas1521@gmail.com"
+  smtp_password: "lbdqtlyehpubduzo"
+  sender_email: "saitejas1521@gmail.com"
+  simulate_email: false
