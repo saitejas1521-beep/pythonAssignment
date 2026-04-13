@@ -14,6 +14,6 @@ email:
   smtp_server: "smtp.gmail.com"
   smtp_port: 587
   smtp_user: "saitejas1521@gmail.com"
-  smtp_password: "lbdqtlyehpubduzo"
+  smtp_password: "[PASSWORD]"
   sender_email: "saitejas1521@gmail.com"
   simulate_email: false
